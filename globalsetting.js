@@ -1,5 +1,3 @@
-//<![CDATA[
-/*GLOBAL SETTINGS, USER CAN CHANGE*/
 var MONTH_FORMAT = [, "Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
 var NO_IMAGE = "http://1.bp.blogspot.com/-eAeO-DYJDws/Vkqtj4HFBFI/AAAAAAAAB0o/Q5OLsyONXM0/s1600-r/nth.png";
 var POST_PER_PAGE = 10; // number of posts per page "navigation"
@@ -464,5 +462,3 @@ $(".related-ready").each(function() {
         }
     })
 });
-
-//]]>
