@@ -177,7 +177,7 @@ $("#feat-sec .HTML .widget-content").each(function() {
                 var $content = $('<div>').html(content);
                 var re = /<\S[^>]*>/g;
                 var snippet = content.replace(re, "");
-                if (snippet.length > 96) {
+                if (snippet.length > 0) {
                     snippet = '' + snippet.substring(0, 140) + '...'
                 }
                 if (content.indexOf("http://www.youtube.com/embed/") > -1 || content.indexOf("https://www.youtube.com/embed/") > -1) {
